@@ -13,7 +13,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const GEMINI_API_KEY = "AIzaSyBa-mPz1-CSr4o7m_V6hu1RFX8xE3NBTHU";
+const GEMINI_API_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY;
 
 type Message = {
   role: "user" | "assistant";
