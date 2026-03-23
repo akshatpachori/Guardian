@@ -1,0 +1,37 @@
+{
+  "report_id": "3e1a7b8e-7534-43fc-83b1-04aba9fcd3a3",
+  "generated_at_ts": 1762882793.20389,
+  "generated_at_iso": "2025-11-11T17:39:53.203892Z",
+  "total_unique_tracked": 2,
+  "by_label": {
+    "pothole": 2
+  },
+  "tracks": [
+    {
+      "id": 1,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:39:40.211879Z",
+      "first_seen_ts": 1762882780.2118793,
+      "first_conf": 0.7232375144958496,
+      "bbox": [
+        109,
+        135,
+        289,
+        246
+      ]
+    },
+    {
+      "id": 2,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:39:43.660102Z",
+      "first_seen_ts": 1762882783.6601021,
+      "first_conf": 0.8119089007377625,
+      "bbox": [
+        173,
+        251,
+        353,
+        368
+      ]
+    }
+  ]
+}

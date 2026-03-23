@@ -1,0 +1,76 @@
+{
+  "report_id": "13183069-4b9a-4b90-861e-6281e870059c",
+  "generated_at_ts": 1762883403.332367,
+  "generated_at_iso": "2025-11-11T17:50:03.332369Z",
+  "total_unique_tracked": 5,
+  "by_label": {
+    "pothole": 5
+  },
+  "tracks": [
+    {
+      "id": 3,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:49:44.507873Z",
+      "first_seen_ts": 1762883384.5078726,
+      "first_conf": 0.8036448955535889,
+      "bbox": [
+        212,
+        62,
+        321,
+        132
+      ]
+    },
+    {
+      "id": 4,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:49:44.507873Z",
+      "first_seen_ts": 1762883384.5078726,
+      "first_conf": 0.7083538174629211,
+      "bbox": [
+        333,
+        379,
+        387,
+        406
+      ]
+    },
+    {
+      "id": 5,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:49:52.662648Z",
+      "first_seen_ts": 1762883392.662648,
+      "first_conf": 0.7155252695083618,
+      "bbox": [
+        290,
+        73,
+        399,
+        139
+      ]
+    },
+    {
+      "id": 6,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:49:53.846088Z",
+      "first_seen_ts": 1762883393.846088,
+      "first_conf": 0.7247049808502197,
+      "bbox": [
+        315,
+        96,
+        422,
+        153
+      ]
+    },
+    {
+      "id": 7,
+      "label": "pothole",
+      "first_seen_iso": "2025-11-11T17:49:54.008329Z",
+      "first_seen_ts": 1762883394.0083292,
+      "first_conf": 0.7865691781044006,
+      "bbox": [
+        398,
+        62,
+        497,
+        127
+      ]
+    }
+  ]
+}

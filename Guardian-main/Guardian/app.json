@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Guardian",
+    "slug": "Guardian",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Icon-512.png",
+    "scheme": "guardian",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Icon-512.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.abhishekyadav.Guardian"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/Icon-512.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/Icon-512.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-video",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4f033ee3-646f-4376-aa47-8f36aef3aea2"
+      }
+    }
+  }
+}
