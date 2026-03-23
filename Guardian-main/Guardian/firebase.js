@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 
 // ✅ Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyAZWAcRTnjHZv8vEcT3YT67-uaMu9DlT_Q",
+  apiKey = process.env.REACT_APP_API_KEY,
   authDomain: "guardian-140624.firebaseapp.com",
   projectId: "guardian-140624",
   storageBucket: "guardian-140624.firebasestorage.app",
